@@ -1,3 +1,17 @@
+## How to run:
+* Download the .zip files
+* Open the `index.html` file in the web browser
+* You should see the tests with the number of success's and failures at the bottom of the page.
+
+### Changes I made:
+(Navigate to jasmine/spec/feedreader.js file) 
+* Line 35: I added the empty URL's test to make sure there were no empty URL's and they were all defined. 
+* Line 48: I added the test for the feed names to make sure there was a name attached to them.
+* Line 58-81: Wrote 'The Menu' test to be sure that everything was working for the hide and close functions.
+* Line 84-98: Created the 'Initial Entries' test to make sure there is at least one entry for each feed.
+* Line 101-115: Wrote "New Feed Selection' to test when a new feed is loaded, the content actually changes and is not the same as the first feed.
+* I had a total of 7 test and all of them successful!
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
