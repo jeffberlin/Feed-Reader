@@ -10,7 +10,7 @@
 * Line 58-81: Wrote 'The Menu' test to be sure that everything was working for the hide and close functions.
 * Line 84-98: Created the 'Initial Entries' test to make sure there is at least one entry for each feed.
 * Line 101-115: Wrote "New Feed Selection' to test when a new feed is loaded, the content actually changes and is not the same as the first feed.
-* I had a total of 7 test and all of them successful!
+* I had a total of 7 tests and all of them successful!
 
 # Project Overview
 
