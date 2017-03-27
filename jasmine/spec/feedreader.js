@@ -89,6 +89,7 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
         beforeEach(function(done) {
+            // used done() for a callback on loadFeed(id, cb);
             loadFeed(0, done);
         });
 
@@ -104,8 +105,10 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
         it('loaded feed content changes', function() {
+            // create Feed variables to test
             var firstFeed,
                 secondFeed;
+                
             loadFeed(0, function() {
                 feedOne = $('.feed').html();
                 expect(firstFeed).not.toEqual(secondFeed);
